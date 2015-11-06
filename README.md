@@ -1,7 +1,7 @@
 React + Reflux DEMO
 ====
 
-Imagur api with react and reflux
+Imgur API with react and reflux
 
 ---
 
