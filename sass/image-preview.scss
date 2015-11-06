@@ -1,0 +1,42 @@
+$width: 200px;
+$height: 200px;
+$background-color: #000;
+$white: #fff;
+
+.inset {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  width: 100%;
+  background-color: $white;
+  text-align: center;
+  opacity: .7;
+}
+
+.glyphicon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+  font-size: 50px;
+  opacity: .5;
+  color: $white;
+}
+
+.image-preview {
+  display: inline-block;
+  position: relative;
+  
+  img {
+    height: $height;
+    width: $width;
+    display: inline-block;
+  }
+
+  video {
+    height: $height;
+    width: $width;
+    vertical-align: middle;
+    background-color: $background-color;
+  }
+}
